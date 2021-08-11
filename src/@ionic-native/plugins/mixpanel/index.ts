@@ -16,7 +16,7 @@ declare var mixpanel: any;
  *
  * ...
  *
- * this.mixpanel.init(token)
+ * this.mixpanel.init(opts)
  *   .then(onSuccess)
  *   .catch(onError);
  *
