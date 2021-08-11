@@ -78,7 +78,7 @@ export class Mixpanel extends IonicNativePlugin {
    * @returns {Promise<any>}
    */
   @Cordova()
-  init(token: string): Promise<any> {
+  init(opts: {token: string, serverURL?: string}): Promise<any> {
     return;
   }
 
